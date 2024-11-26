@@ -17,21 +17,32 @@ main {
     display: flex;
     justify-content: center;
     width: 70%;
+    margin: 0 auto;
 }
 .grandezza {
     display: flex;
+    flex-basis: 100%;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 70px;
     
 }
-.bg-gray {
-    margin-bottom: 70px;
-    width: 500px;
+.product {
+    margin-bottom: 30px;
+    width: 600px;
     /* DEBUG */
-    background-color: lightgray;
+    /* background-color: lightgray;
     border: 1px solid black;
-    height: 900px;
+    height: 950px; */
+}
+.products-img {
+    width: 600px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+
 }
 
 
