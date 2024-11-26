@@ -69,6 +69,7 @@ main {
 .product:hover .fotob {
     display: block;
 }
+
 .percentage-discount {
     position: absolute;
     background-color: red;
@@ -124,6 +125,40 @@ main {
 }
 
 /* inizio footer */
+
+footer {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+#footer2 {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+h3, h6 {
+   color: white;
+}
+h3 {
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+h6 {
+    font-size: 20px;
+    margin-bottom: 17px;
+    margin-left: 10px;
+}
+.info {
+    font-size: 17px;
+}
+.social {
+    font-size: 35px;
+    margin-left: 10px;
+}
 
 
 
