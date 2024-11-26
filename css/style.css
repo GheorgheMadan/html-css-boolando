@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+header {
+    display: flex;
+    background-color: orange;
+    /* DEBUG */
+    height: 100px;
+}
+
+/* regole main*/
+main {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.grandezza {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.bg-gray {
+    margin-bottom: 70px;
+    width: 500px;
+    /* DEBUG */
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 900px;
+}
+
+
+
+
+
+
+
