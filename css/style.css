@@ -2,48 +2,128 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* regole header */
 header {
     display: flex;
-    background-color: orange;
+    background-color: rgb(241, 97, 0);
     /* DEBUG */
     height: 100px;
+}
+nav {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.sezione {
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+}
+.logo {
+    width: 200px;
+}
+.font-awesome {
+    display: flex;
+    gap: 18px;
 }
 
 /* regole main*/
 main {
     display: flex;
-    justify-content: center;
     width: 70%;
     margin: 0 auto;
-}
-.grandezza {
-    display: flex;
-    flex-basis: 100%;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 70px;
-    
 }
+
+/* regole dei prodotti */
 .product {
     margin-bottom: 30px;
-    width: 600px;
+    position: relative;
     /* DEBUG */
     /* background-color: lightgray;
     border: 1px solid black;
     height: 950px; */
 }
-.products-img {
-    width: 600px;
+/* dimensioni immagini*/
+.products-img, .product {
+    width: 652px;
 }
+.fotob {
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    display: none; 
+}
+.product:hover .fotob {
+    display: block;
+}
+.percentage-discount {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 7px 13px;
+    font-size: 18px;
+    font-weight: bold;
+    bottom: 135px;
+    z-index: 30;
+}
+.sustainability {
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 7px 13px;
+    font-size: 18px;
+    font-weight: bold;
+    bottom: 135px;
+    z-index: 30;
+}
+.sustainability2 {
+    left: 73px;
+}
+.heart {
+    position: absolute;
+    font-size: 40px;
+    background-color: white;
+    padding: 5px 20px;
+    top: 10px;
+    right: 0px;
+    z-index: 30;
+}
+/* nome dei prodotti */
 .details {
     display: flex;
     flex-direction: column;
-
 }
+.brand {
+    font-size: 18px;
+}
+.category {
+    font-size: 22px;
+}
+.discount {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.old-price {
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+/* inizio footer */
 
 
 
